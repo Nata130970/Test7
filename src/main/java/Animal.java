@@ -1,9 +1,7 @@
 import java.util.ArrayList;
-
+//   "Это класс животные
 public class Animal extends Fauna{
-
     String move;
-
     public Animal (String name){
         this.name=name;
         ArrayList<String> props = fauna.get(this.name);
@@ -11,7 +9,6 @@ public class Animal extends Fauna{
         habitat=props.get(1).trim();
         move=props.get(2).trim();
     }
-
     @Override
     public  String getName(){
         return this.name + ":\n";
