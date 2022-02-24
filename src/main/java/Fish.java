@@ -1,7 +1,7 @@
 
 
 import java.util.ArrayList;
-
+// это класс рыбы
 public class Fish extends Fauna{
     String about;
     public Fish (String name){
