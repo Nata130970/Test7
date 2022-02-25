@@ -1,6 +1,6 @@
 
 import java.util.ArrayList;
-
+// Это класс птицы
 public class Bird extends Fauna{
     String move;
 
