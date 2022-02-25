@@ -29,6 +29,7 @@ public abstract class Fauna {
             ArrayList<String> props = new ArrayList(Arrays.asList(mas));
             props.remove(0);
             fauna.put(mas[0].trim(), props);
+
         }
 
     }
