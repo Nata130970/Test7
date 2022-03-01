@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Positive Suite">
+    <test name="positiveTest">
+        <classes>
+            <class name = "MainClassTest"/>
+            <class name = "FishClassTest"/>
+        </classes>
+    </test>
+</suite>

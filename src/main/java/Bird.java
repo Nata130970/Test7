@@ -30,7 +30,7 @@ public class Bird extends Fauna{
         return info;
     }
 
-    private String move(){
+    protected String move(){
         return "Ходит " + this.move+ "\n";
     }
 

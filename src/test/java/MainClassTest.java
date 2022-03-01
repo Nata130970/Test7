@@ -1,14 +1,14 @@
 import org.testng.Assert;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import java.util.ArrayList;
-
 import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
+
 
 public class MainClassTest extends SettingTest{
 
-    @Test
+
+    @Test(groups = { "food" })
     public void testGetFood(){
 
         String name = "Панда";
@@ -19,7 +19,7 @@ public class MainClassTest extends SettingTest{
         assertEquals(result,expectedFood,String.format("%s Exp: %s Res: %s",name,result,expectedFood));
     }
 
-    @Test
+    @Test(groups = { "habbit" })
     public void testHabbit(){
 
         String name = "Жираф";
@@ -29,7 +29,7 @@ public class MainClassTest extends SettingTest{
         String result = animal.whereLive().trim();
         assertEquals(result,expectedHabitat,String.format("%s Exp: %s Res: %s",name,result,expectedHabitat));
     }
-    @Test
+    @Test(groups = { "move" })
     public void testMove(){
 
         String name = "Корова";

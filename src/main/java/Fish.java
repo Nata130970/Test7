@@ -29,7 +29,7 @@ public class Fish extends Fauna{
         String info = getName() + getFood() + whereLive() + aboutFish();
         return info;
     }
-    private String aboutFish(){
+    protected String aboutFish(){
         return this.about + "\n";
     }
 
