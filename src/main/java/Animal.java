@@ -27,7 +27,7 @@ public class Animal extends Fauna{
         return info;
     }
 
-    private String move(){
+    protected String move(){
         return "Ходит " + this.move+ "\n";
     }
 
