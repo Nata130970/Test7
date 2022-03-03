@@ -6,11 +6,14 @@
         <groups >
             <run>
                 <include name = "food" />
+                <include name = "habbit" />
+                <include name = "move" />
             </run>
         </groups>
 
         <classes>
             <class name = "MainClassTest"/>
+            <class name = "FishClassTest"/>
         </classes>
     </test>
 </suite>
