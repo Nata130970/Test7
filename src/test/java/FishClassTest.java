@@ -5,7 +5,7 @@ import static org.testng.Assert.assertTrue;
 
 public class FishClassTest extends SettingTest {
 
-    @Test
+    @Test(groups = "food")
     public void testFishFood(){
 
         String name = "Кит";
@@ -16,7 +16,7 @@ public class FishClassTest extends SettingTest {
         assertTrue(result.contains(expectedFood),String.format("%s Exp: %s Res: %s",name,result,expectedFood));
     }
 
-    @Test
+    @Test(groups = { "habbit" })
     public void testHabbit(){
 
         String name = "Сом";
